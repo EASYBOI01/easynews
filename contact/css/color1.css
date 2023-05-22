@@ -1,0 +1,27 @@
+/*------------------------------------------------------------------
+    File Name: color1.css
+-------------------------------------------------------------------*/
+
+.headtop {
+	background: #222;
+}
+
+.newinfo {
+    background: #ed3945;
+}
+
+.socialicon ul li a:hover,
+.socialicon ul li a:focus {
+	color: #07b9ae;
+}
+
+.newinfo::after {
+	border-color: transparent transparent transparent #ed3945;
+}
+
+/**== menu color ==**/
+
+#cssmenu>ul>li:hover>a,
+#cssmenu>ul>li.active>a {
+	background: #222;
+}
